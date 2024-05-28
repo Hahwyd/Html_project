@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./Css/registration.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" title="Favicon"/>
+</head>
+<body>
+    <h1>New User Registration</h1>
+    <form action="/action_page.php">
+        <label for="user_name">Enter your user name</label><input placeholder="User name" type="text" id="user_name" name="user_name"><br>
+        <label for="pwd">Enter your password</label><input placeholder="Password" type="password" id="pwd" name="pwd"><br>
+        <label for="email">Enter your email</label><input placeholder="Email" type="email" id="email" name="email"><br>
+        <label for="fname">Enter your first name</label><input placeholder="First name" type="text" id="fname" name="fname"><br>
+        <label for="lname">Enter your last name</label><input placeholder="Last name" type="text" id="lname" name="lname"><br>
+        <label for="birthday">Enter your birthday</label><input type="date" id="birthday" name="birthday"><br><br>
+        <label for="myfile">Select a file:</label><input type="file" id="myfile" name="myfile"><br><br>
+        <label for="favcolor">Select your favorite color</label><input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        <label for="coolscale">How cool are you</label><input type="range" id="coolscale" name="coolscale" min="0" max="50"><br><br>
+        <input type="checkbox" id="tutorial" name="tutorial" value="tutorial"><label for="tutorial">I want to complete tutorial for a beginners</label><br>
+        <input type="radio" id="newsletter_yes" name="newsletter" value="newsletter_yes"><label for="newsletter_yes">I want to receive newsletters</label><br>
+        <input type="radio" id="newsletter_no" name="newsletter" value="newsletter_no"><label for="newsletter_no">I don't want to receive newsletters</label><br><br>
+        <input type="reset" value="Reset">
+        <a href="./login.html"><button type="button">Registration</button></a>     
+      </form> 
+</body>
+</html>

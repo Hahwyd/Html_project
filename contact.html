@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./Css/contact.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" title="Favicon"/>
+</head>
+<body>
+    <div class="background">
+        <div id="dragons"></div>
+    </div>
+    <ul>
+        <li><a class="active" href="./home.html">Home</a></li>
+        <li><a class="navleftside" href="./contact.html">Contact</a></li>
+        <li><a class="navleftside" href="./aboutus.html">About us</a></li>
+        <li><a class="navrightside" href="./login.html">Profile</a></li>
+        <li><a class="navrightside" href="./login.html">Logout</a></li>
+      </ul>
+    <script src="./Javascript/floating_dragon.js"></script>
+    <div class="container">
+        <h1>Need to get in touch with us? Fill out the form with your inquiry</h1>
+        <h2>Submit a Ticket</h2>
+        <div class="form-wrapper">
+            <div class="column">
+                <p>Enter Your full name</p>
+                <p>Enter your email</p>
+                <p>Enter your phone number</p>
+                <p>Enter subject</p>
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <input placeholder="Full name" type="text" id="fullname" name="fullname"><br><br>
+                    <input placeholder="Email" type="email" id="email" name="email"><br><br>
+                    <input type="tel" id="phone" name="phone" placeholder="123-45-678"><br><br>
+                    <input placeholder="Subject" type="text" id="subject" name="subject"><br>
+                </form>
+            </div>
+        </div>
+        <div class="message-wrapper">
+            <h2>Enter your message</h2>
+            <textarea placeholder="Your message" id="message" name="message" rows="8" cols="50"></textarea><br>
+            <input type="reset" value="Reset">
+            <a href="./login.html"><button type="button">Submit</button></a>     
+        </div>
+    </div>
+</body>
+</html>
