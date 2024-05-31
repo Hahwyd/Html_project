@@ -1,4 +1,4 @@
-const dragonCount = 15;
+const dragonCount = 35;
 const dragons = [];
 const container = document.getElementById('dragons');
 const speed = 2; // Установленная скорость для всех дракончиков
